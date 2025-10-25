@@ -3,7 +3,7 @@
 /* --------------------------------------------------------------------- */
 :root {
     /* Defines the main accent color */
-    --primary-color: #905198; 
+    --primary-color: #843e8e; 
 }
 body {
     /* Uses the 'Inter' font and a light gray background */
@@ -14,6 +14,19 @@ body {
 /* --------------------------------------------------------------------- */
 /* Custom Element Styles */
 /* --------------------------------------------------------------------- */
+
+/*Style for the main header*/
+header {
+    background-color: var(--primary-color);
+}
+
+.experience-item {
+    border-color: var(--primary-color);
+}
+
+.experience-accent-text {
+    color: var(--primary-color);
+}
 
 /* Style for section headings with a colored underline effect */
 .section-title {
